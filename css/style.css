@@ -15,7 +15,7 @@ img {
 	width: 100%;
 	height: auto;
 	margin: auto;
-	margin: 15px;
+
 
 }
 
@@ -30,13 +30,28 @@ img {
 
 	overflow: auto;
 	margin: auto;
-	border: solid black 1px;
 
+
+}
+
+
+.contactLinkIcon:hover {
+	box-shadow: 5px 5px 10px #555555;
 }
 
 #contactIcon {
 	padding: 20px;
 	border-style: none;
+}
+
+.linkBorder {
+	border: solid #dddddd 0px;
+	border-radius: 3%;
+	box-shadow: 5px 5px 10px #555555;
+}
+
+.linkBorder:hover {
+	/*box-shadow: 7px 7px 20px #555555;*/
 }
 
 
@@ -48,9 +63,15 @@ img {
 		border-color: #dddddd;
 		border-width: 3px;
 		margin-bottom: 35px;
+		padding: 15px;
+		padding-bottom: 35px;
 	}
 	.contentBox {
 		width: 50%;
+	}
+
+	.contactLinkIcon {
+		margin-bottom: 15px;
 	}
 }
 @media(min-width:1200px){}
