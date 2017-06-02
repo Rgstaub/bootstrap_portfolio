@@ -1,7 +1,40 @@
+body {
+	background-color: #666666;
+}
+
+
 section {
 	background-color: #dddddd;
 }
 
-.container {
-	padding: 15px;
+aside {
+	background-color: #ffffff;
 }
+
+img {
+	width: 50%;
+	height: auto;
+
+}
+
+.navbar {
+	border-radius: 0px;
+}
+.container {
+	max-width: 980px;
+}
+
+.contentbox {
+	overflow: auto;
+	padding: 15;
+	border: solid black 1px;
+}
+
+
+
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){
+
+}
+@media(min-width:1200px){}
