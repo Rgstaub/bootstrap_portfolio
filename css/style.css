@@ -16,7 +16,7 @@ img {
 	height: auto;
 	margin: auto;
 	margin: 15px;
-	border: solid white 2px;
+
 }
 
 .navbar {
@@ -26,16 +26,17 @@ img {
 	max-width: 980px;
 }
 
-/*.contentBox {
+.contentBox {
+
 	overflow: auto;
-	width: 100%;
 	margin: auto;
 	border: solid black 1px;
-	background-color: #ffffff;
-}*/
+
+}
 
 #contactIcon {
 	padding: 20px;
+	border-style: none;
 }
 
 
