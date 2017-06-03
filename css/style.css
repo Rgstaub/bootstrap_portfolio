@@ -1,77 +1,140 @@
 body {
-	background-color: #666666;
+	background: linear-gradient(90deg, #888888, #777777);
+	height: 100%;
 }
 
 
 section {
 	background-color: #dddddd;
+	margin-bottom: 35px;
 }
 
 aside {
-
+	padding: 15px;
 }
 
 img {
 	width: 100%;
 	height: auto;
 	margin: auto;
-
-
 }
 
 .navbar {
 	border-radius: 0px;
+	box-shadow: 5px 5px 10px #555555;
 }
+
 .container {
 	max-width: 980px;
 }
 
-.contentBox {
-
-	overflow: auto;
-	margin: auto;
-
+.contactLinkIcon {
+	padding: 15px;
+	width: 23%;
 
 }
 
+.contentBox {
+	overflow: auto;
+	margin: auto;
+	padding: 15px;
+	max-width: 500px;
+}
+
+.vertDivider {
+	width: 100%;
+	height: 1px;
+	background color: #dddddd;
+	border: solid #dddddd 4px;
+	border-radius: 3px;
+	margin-bottom: 25px;
+	box-shadow: 5px 5px 10px #555555;
+	display: none;
+}
+
+.horDivider {
+	width: 1px;
+	height: 100%;
+	background color: #dddddd;
+	border: solid #dddddd 4px;
+	border-radius: 3px;
+	margin-bottom: 25px;
+	box-shadow: 5px 5px 10px #555555;
+	display: inline-block;
+}
 
 .contactLinkIcon:hover {
-	box-shadow: 5px 5px 10px #555555;
+/*	box-shadow: 5px 5px 10px #555555;*/
 }
 
 #contactIcon {
-	padding: 20px;
-	border-style: none;
+
+	padding: 15px;
+/*	border-style: none;
+	box-shadow: 5px 5px 10px #555555;*/
+	width: 23%;
 }
 
 .linkBorder {
 	border: solid #dddddd 0px;
 	border-radius: 3%;
 	box-shadow: 5px 5px 10px #555555;
+	-webkit-transition: box-shadow .8s ease-out;
+}
+
+.contactBorder {
+	box-shadow: 5px 5px 10px #555555;
+	border-radius: 50%;
 }
 
 .linkBorder:hover {
-	/*box-shadow: 7px 7px 20px #555555;*/
+	box-shadow: 8px 8px 15px #444444;
 }
 
 
-@media(max-width:767px){}
-@media(min-width:768px){}
+@media(max-width:767px){
+
+}
+
+@media(min-width:768px){
+	#contactIcon {
+/*		padding-top: 0px;*/
+	}
+	.vertDivider {
+		display: none;
+	}
+}
 @media(min-width:992px){
 	#contactIcon {
-		border-bottom-style: solid;
-		border-color: #dddddd;
-		border-width: 3px;
-		margin-bottom: 35px;
+		/*border-bottom-style: solid;*/
+		/*border-color: #dddddd;*/
+		/*border-width: 5px;*/
+		/*margin-bottom: 35px;*/
 		padding: 15px;
 		padding-bottom: 35px;
+		/*border-radius: 5px;*/
+		border-right-style: none;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 100%;
 	}
 	.contentBox {
 		width: 50%;
 	}
 
 	.contactLinkIcon {
-		margin-bottom: 15px;
+		margin-top: 0px;
+		margin-bottom: 0px;		
+		padding: 15px;
+		width: 100%;
+	}
+
+	.vertDivider {
+		display: inline-block; 
+	}
+
+	.horDivider {
+		display: none;
 	}
 }
 @media(min-width:1200px){}
