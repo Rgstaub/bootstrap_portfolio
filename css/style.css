@@ -3,9 +3,20 @@ body {
 	height: 100%;
 }
 
+[class*="col-"] {
+	border: solid red 1px;
+}
+
+.row {
+	border: solid green 1px;
+}
+
+.container {
+	border: solid yellow 1px;
+}
 
 section {
-	background-color: #dddddd;
+	background-color: none;
 	margin-bottom: 35px;
 }
 
@@ -19,14 +30,26 @@ img {
 	margin: auto;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
+h2 {
+	margin: auto;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
 .navbar {
 	border-radius: 0px;
 	box-shadow: 5px 5px 10px #555555;
 }
 
-.container {
+/*.container {
 	max-width: 980px;
-}
+}*/
 
 .contactLinkIcon {
 	padding: 15px;
@@ -39,6 +62,7 @@ img {
 	margin: auto;
 	padding: 15px;
 	max-width: 500px;
+
 }
 
 .vertDivider {
@@ -47,7 +71,8 @@ img {
 	background color: #dddddd;
 	border: solid #dddddd 4px;
 	border-radius: 3px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
+	margin-top: 15px;
 	box-shadow: 5px 5px 10px #555555;
 	display: none;
 }
@@ -64,14 +89,41 @@ img {
 }
 
 .contactLinkIcon:hover {
-/*	box-shadow: 5px 5px 10px #555555;*/
+
+}
+
+.well {
+	box-shadow: 5px 5px 10px #555555;
+}
+
+#myPic {
+	width: 66%;
+	height: auto;
+	border-radius: 50%;
+	border-width: 10px;
+	border-color: #dddddd;
+	margin: 10px;
+	box-shadow: 5px 5px 10px #666666;
+}
+
+#aboutMeButton {
+	height: 50px;
+	background-color: #eeeeee;
+	border: solid grey 1px;
+	border-radius: 4px;
+	text-align: center;
+	margin-top: 30px;
+	line-height: 50px;
+	font-size: 15px;
+	color: #777777;
+	box-shadow: 5px 5px 10px #666666;
+
 }
 
 #contactIcon {
 
 	padding: 15px;
-/*	border-style: none;
-	box-shadow: 5px 5px 10px #555555;*/
+
 	width: 23%;
 }
 
@@ -98,7 +150,7 @@ img {
 
 @media(min-width:768px){
 	#contactIcon {
-/*		padding-top: 0px;*/
+
 	}
 	.vertDivider {
 		display: none;
@@ -106,14 +158,11 @@ img {
 }
 @media(min-width:992px){
 	#contactIcon {
-		/*border-bottom-style: solid;*/
-		/*border-color: #dddddd;*/
-		/*border-width: 5px;*/
-		/*margin-bottom: 35px;*/
+
 		padding: 15px;
 		padding-bottom: 35px;
-		/*border-radius: 5px;*/
-		border-right-style: none;
+
+
 		margin-top: 0px;
 		margin-bottom: 0px;
 		width: 100%;
