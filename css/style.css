@@ -4,15 +4,15 @@ body {
 }
 
 [class*="col-"] {
-	border: solid red 1px;
+	/*border: solid red 1px;*/
 }
 
 .row {
-	border: solid green 1px;
+	/*border: solid green 1px;*/
 }
 
 .container {
-	border: solid yellow 1px;
+	/*border: solid yellow 1px;*/
 }
 
 section {
@@ -96,6 +96,8 @@ a:focus {
 	box-shadow: 5px 5px 10px #555555;
 }
 
+
+
 #myPic {
 	width: 66%;
 	height: auto;
@@ -112,7 +114,7 @@ a:focus {
 	border: solid grey 1px;
 	border-radius: 4px;
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 6%;
 	line-height: 50px;
 	font-size: 15px;
 	color: #777777;
