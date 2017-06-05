@@ -53,7 +53,7 @@ a:focus {
 
 .contactLinkIcon {
 	padding: 15px;
-	width: 23%;
+
 
 }
 
@@ -99,12 +99,12 @@ a:focus {
 
 
 #myPic {
-	width: 66%;
+	width: 100%;
 	height: auto;
 	border-radius: 50%;
 	border-width: 10px;
 	border-color: #dddddd;
-	margin: 10px;
+	
 	box-shadow: 5px 5px 10px #666666;
 }
 
@@ -120,6 +120,11 @@ a:focus {
 	color: #777777;
 	box-shadow: 5px 5px 10px #666666;
 
+
+#contactExpandIcon {
+	width: 75%
+}
+
 }
 
 #contactIcon {
@@ -127,6 +132,12 @@ a:focus {
 	padding: 15px;
 
 	width: 23%;
+}
+
+#connectWell {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
 }
 
 .linkBorder {
