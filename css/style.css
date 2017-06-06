@@ -1,6 +1,8 @@
 body {
 	background: #99CCCC;
 	height: 100%;
+	font-family: 'Amiko', sans-serif;
+	color: #777;
 }
 
 [class*="col-"] {
@@ -20,7 +22,7 @@ body {
 	margin-bottom: 35px;
 	padding-top: 15px;
 	border-radius: 4px;
-	box-shadow: 5px 5px 10px #555555;
+	box-shadow: 4px 4px 10px #666666;
 	-webkit-transition: all .8s ease;
 	
 }
@@ -40,14 +42,28 @@ img {
 	margin: auto;
 }
 
+a.navbar-brand {
+	font-size: 25px;
+}
+
 a:hover {
 	text-decoration: none;
 }
 
+li.navbox {
+	-webkit-transition: all 1.0s ease-in;
+	border-radius: 5px;
+}
+
+li.navbox:hover {
+	background-color: #ffffff;
+	box-shadow: 0px 0px 8px #ffffff;
+}
+
 h2 {
 	text-align: center;
-	color: #ffffff;
-	text-shadow: 3px 3px 5px #555555;
+	color: #eeeeee;
+	text-shadow: 2px 2px 4px #555555;
 	font-weight: bold;
 	margin-bottom: 0px;
 }
@@ -59,7 +75,12 @@ a:focus {
 .navbar {
 	border-radius: 0px;
 	box-shadow: 5px 5px 15px #555555;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #eeeeee;
+	-webkit-transition: all .5s ease;
 }
+
+
 
 /*.container {
 	max-width: 980px;
@@ -189,8 +210,15 @@ a:focus {
 }
 
 @media(max-width:767px){
-
+	.navbar-header {
+	-webkit-transition: all .5s ease;
 }
+
+.navbar-header:hover {
+	background-color: #ffffff;
+	box-shadow: 8px 8px 20px #666666;
+}
+
 
 @media(min-width:768px){
 /*	#contactIcon {
