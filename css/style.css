@@ -51,7 +51,7 @@ a:hover {
 }
 
 li.navbox {
-	-webkit-transition: all 1.0s ease-in;
+	-webkit-transition: all .5s ease-in;
 	border-radius: 5px;
 }
 
@@ -78,6 +78,7 @@ a:focus {
 	font-family: 'Ubuntu', sans-serif;
 	background-color: #eeeeee;
 	-webkit-transition: all .5s ease;
+	margin-bottom: 25px;
 }
 
 
