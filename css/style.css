@@ -1,5 +1,5 @@
 body {
-	background: linear-gradient(90deg, #888888, #777777);
+	background: #99CCCC;
 	height: 100%;
 }
 
@@ -16,11 +16,18 @@ body {
 }
 
 .about-me-box {
-	background-color: #ffffff;
+	background-color: #eeeeee;
 	margin-bottom: 35px;
 	padding-top: 15px;
 	border-radius: 4px;
-	box-shadow: 5px 5px 10px #666666;
+	box-shadow: 5px 5px 10px #555555;
+	-webkit-transition: all .8s ease;
+	
+}
+
+.about-me-box:hover {
+	background-color: #ffffff;
+	box-shadow: 8px 8px 20px #666666;
 }
 
 aside {
@@ -40,8 +47,9 @@ a:hover {
 h2 {
 	text-align: center;
 	color: #ffffff;
-	text-shadow: 5px 5px 10px #555555;
-
+	text-shadow: 3px 3px 5px #555555;
+	font-weight: bold;
+	margin-bottom: 0px;
 }
 
 a:focus {
@@ -50,7 +58,7 @@ a:focus {
 
 .navbar {
 	border-radius: 0px;
-	box-shadow: 5px 5px 10px #555555;
+	box-shadow: 5px 5px 15px #555555;
 }
 
 /*.container {
@@ -77,7 +85,7 @@ a:focus {
 
 	height: 1px;
 	background color: #dddddd;
-	border: solid #dddddd 4px;
+	border: solid #EEF66C 4px;
 	border-radius: 3px;
 	margin-bottom: 15px;
 	margin-top: 15px;
@@ -90,7 +98,7 @@ a:focus {
 	height: 100%;
 	background color: #dddddd;
 	border: solid #dddddd 4px;
-	border-radius: 3px;
+	border-radius: 4px;
 	margin-bottom: 25px;
 	box-shadow: 5px 5px 10px #555555;
 	display: inline-block;
@@ -108,7 +116,9 @@ a:focus {
 	padding-right: 0px;
 }
 
+#bs-example-navbar-collapse-1 {
 
+}
 
 #myPic {
 	width: 120px;
@@ -117,12 +127,13 @@ a:focus {
 	border-radius: 50%;
 	margin: 0px 15px 15px 0px;
 	float: left;
-	box-shadow: 2px 2px 5px #666666;
-	-webkit-transition: box-shadow .8s ease-out;
+	box-shadow: 2px 2px 5px #555555;
+	-webkit-transition: all .5s ease;
 }
 
 #myPic:hover {
-	box-shadow: 8px 8px 15px #444444;
+	box-shadow: 8px 8px 15px #777777;
+	-webkit-filter: brightness(115%);
 }
 
 #aboutMeButton {
@@ -160,7 +171,7 @@ a:focus {
 	border: solid #dddddd 0px;
 	border-radius: 3%;
 	box-shadow: 5px 5px 10px #555555;
-	-webkit-transition: box-shadow .8s ease-out;
+	-webkit-transition: all .5s ease;
 }
 
 .contactBorder {
@@ -169,24 +180,30 @@ a:focus {
 }
 
 .linkBorder:hover {
-	box-shadow: 8px 8px 15px #444444;
+	box-shadow: 8px 8px 20px #555555;
+	-webkit-filter: brightness(110%);
 }
 
+#about-me-full {
+	display: none;
+}
 
 @media(max-width:767px){
 
 }
 
 @media(min-width:768px){
-	#contactIcon {
+/*	#contactIcon {
 
 	}
 	.vertDivider {
 		display: none;
 	}
+*/
+
 }
 @media(min-width:992px){
-	#contactIcon {
+/*	#contactIcon {
 
 		padding: 15px;
 		padding-bottom: 35px;
@@ -198,8 +215,16 @@ a:focus {
 	}
 	.contentBox {
 		width: 50%;
+	}*/
+		#about-me-collapse {
+		display: none;
 	}
 
+		#about-me-full {
+		display: inline-block;
+	}
+
+/*
 	.contactLinkIcon {
 		margin-top: 0px;
 		margin-bottom: 0px;		
@@ -214,5 +239,13 @@ a:focus {
 	.horDivider {
 		display: none;
 	}
+
+	#about-me-full {
+		display: inline-block;
+	}
+
+	#about-me-collapse {
+		display: none;
+	}*/
 }
 @media(min-width:1200px){}
