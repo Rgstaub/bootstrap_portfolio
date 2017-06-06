@@ -16,8 +16,10 @@ body {
 }
 
 section {
-	background-color: none;
+	background-color: transparent;
 	margin-bottom: 35px;
+	padding-top: 15px;
+	border-radius: 4px;
 }
 
 aside {
@@ -35,7 +37,10 @@ a:hover {
 }
 
 h2 {
-	margin: auto;
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 5px 5px 10px #555555;
+
 }
 
 a:focus {
@@ -53,8 +58,10 @@ a:focus {
 
 .contactLinkIcon {
 	padding: 15px;
+}
 
-
+.jumbotron {
+	border-radius: 0px;
 }
 
 .contentBox {
@@ -65,8 +72,8 @@ a:focus {
 
 }
 
-.vertDivider {
-	width: 100%;
+.horizontal_divider {
+
 	height: 1px;
 	background color: #dddddd;
 	border: solid #dddddd 4px;
@@ -74,7 +81,7 @@ a:focus {
 	margin-bottom: 15px;
 	margin-top: 15px;
 	box-shadow: 5px 5px 10px #555555;
-	display: none;
+
 }
 
 .horDivider {
@@ -89,22 +96,25 @@ a:focus {
 }
 
 .contactLinkIcon:hover {
-
 }
 
 .well {
-	box-shadow: 5px 5px 10px #555555;
+	background-color: transparent;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 
 
 #myPic {
-	width: 100%;
+	width: 120px;
 	height: auto;
 	border-radius: 50%;
-	border-width: 10px;
-	border-color: #dddddd;
-	
+	margin: 0px 15px 15px 0px;
+	float: left;
 	box-shadow: 5px 5px 10px #666666;
 }
 
@@ -119,13 +129,12 @@ a:focus {
 	font-size: 15px;
 	color: #777777;
 	box-shadow: 5px 5px 10px #666666;
-
+}
 
 #contactExpandIcon {
 	width: 75%
 }
 
-}
 
 #contactIcon {
 
