@@ -81,7 +81,9 @@ a:focus {
 	margin-bottom: 25px;
 }
 
-
+footer {
+	
+}
 
 /*.container {
 	max-width: 980px;
@@ -106,7 +108,7 @@ a:focus {
 .horizontal_divider {
 
 	height: 1px;
-	background color: #dddddd;
+	background color: #EEF66C;
 	border: solid #EEF66C 4px;
 	border-radius: 3px;
 	margin-bottom: 15px;
