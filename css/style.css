@@ -211,69 +211,23 @@ a:focus {
 
 @media(max-width:767px){
 	.navbar-header {
-	-webkit-transition: all .5s ease;
-}
-
-.navbar-header:hover {
-	background-color: #ffffff;
-	box-shadow: 8px 8px 20px #666666;
-}
-
-
-@media(min-width:768px){
-/*	#contactIcon {
-
+		-webkit-transition: all .5s ease;
 	}
-	.vertDivider {
-		display: none;
+	.navbar-header:hover {
+		background-color: #ffffff;
+		box-shadow: 8px 8px 20px #666666;
 	}
-*/
-
 }
+
+@media(min-width:768px){}
+
 @media(min-width:992px){
-/*	#contactIcon {
-
-		padding: 15px;
-		padding-bottom: 35px;
-
-
-		margin-top: 0px;
-		margin-bottom: 0px;
-		width: 100%;
-	}
-	.contentBox {
-		width: 50%;
-	}*/
-		#about-me-collapse {
+	#about-me-collapse {
 		display: none;
 	}
-
-		#about-me-full {
-		display: inline-block;
-	}
-
-/*
-	.contactLinkIcon {
-		margin-top: 0px;
-		margin-bottom: 0px;		
-		padding: 15px;
-		width: 100%;
-	}
-
-	.vertDivider {
-		display: inline-block; 
-	}
-
-	.horDivider {
-		display: none;
-	}
-
 	#about-me-full {
 		display: inline-block;
 	}
-
-	#about-me-collapse {
-		display: none;
-	}*/
 }
+
 @media(min-width:1200px){}
