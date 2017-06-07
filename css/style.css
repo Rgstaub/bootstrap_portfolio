@@ -5,9 +5,9 @@ body {
 	color: #777;
 }
 
-[class*="col-"] {
-	/*border: solid red 1px;*/
-}
+/*[class*="col-"] {
+	border: solid red 1px;
+}*/
 
 .row {
 	/*border: solid green 1px;*/
@@ -28,7 +28,7 @@ body {
 }
 
 .about-me-box:hover {
-	background-color: #ffffff;
+	background-color: #F8FFDE;
 	box-shadow: 8px 8px 20px #666666;
 }
 
@@ -56,8 +56,8 @@ li.navbox {
 }
 
 li.navbox:hover {
-	background-color: #ffffff;
-	box-shadow: 0px 0px 8px #ffffff;
+	background-color: #F8FFDE;
+	box-shadow: 0px 0px 8px #F8FFDE;
 }
 
 h2 {
@@ -72,6 +72,15 @@ a:focus {
 	text-decoration: none;
 }
 
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
 .navbar {
 	border-radius: 0px;
 	box-shadow: 5px 5px 15px #555555;
@@ -82,7 +91,13 @@ a:focus {
 }
 
 footer {
-	
+	height: 40px;
+	background-color: #444444;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	line-height: 40px;
 }
 
 /*.container {
@@ -103,6 +118,34 @@ footer {
 	padding: 15px;
 	max-width: 500px;
 
+}
+
+.color-test {
+	height: 200px;
+}
+
+#c1 {
+	background-color: #99CCCC;
+}
+
+#c2 {
+	background-color: #EEF66C;
+}
+
+#c3 {
+	background-color: #F8FFDE;
+}
+
+#c4 {
+	background-color: #0077B5;
+}
+
+#c5 {
+	background-color: #FFA500;
+}
+
+#c6 {
+	background-color: #EEEEEE;
 }
 
 .horizontal_divider {
@@ -140,9 +183,6 @@ footer {
 	padding-right: 0px;
 }
 
-#bs-example-navbar-collapse-1 {
-
-}
 
 #myPic {
 	width: 120px;
@@ -217,7 +257,7 @@ footer {
 		-webkit-transition: all .5s ease;
 	}
 	.navbar-header:hover {
-		background-color: #ffffff;
+		background-color: #F8FFDE;
 		box-shadow: 8px 8px 20px #666666;
 	}
 }
