@@ -68,6 +68,15 @@ h2 {
 	margin-bottom: 0px;
 }
 
+h3 {
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+a:link {
+	color: #666;
+}
+
 p {
 	line-height: 25px;
 }
@@ -160,14 +169,18 @@ footer {
 
 .horizontal_divider {
 
-	height: 1px;
+	height: 0px;
 	background color: #EEF66C;
-	border: solid #EEF66C 4px;
-	border-radius: 3px;
+	border: solid #EEF66C 3px;
+	border-radius: 2px;
 	margin-bottom: 15px;
 	margin-top: 15px;
-	box-shadow: 2px 2px 10px #666666;
+	box-shadow: 2px 2px 10px #777;
 
+}
+
+.panel-default: {
+	border-style: none;
 }
 
 .horDivider {
@@ -233,6 +246,12 @@ footer {
 	padding: 15px;
 
 	width: 23%;
+}
+
+#portfolio-header {
+	text-align: left;
+	margin-bottom: 15px;
+	margin-top: 0px;
 }
 
 #connectWell {
