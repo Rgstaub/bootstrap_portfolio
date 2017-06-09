@@ -20,7 +20,7 @@ body {
 .about-me-box {
 	background-color: #eeeeee;
 	margin-bottom: 35px;
-	padding-top: 15px;
+	padding-top: 25px;
 	border-radius: 0px;
 	box-shadow: 2px 2px 10px #666666;
 	-webkit-transition: all .8s ease;
@@ -176,7 +176,7 @@ footer {
 .horizontal_divider {
 
 	height: 0px;
-	background color: #EEF66C;
+	background-color: #EEF66C;
 	border: solid #EEF66C 3px;
 	border-radius: 0px;
 	margin-bottom: 15px;
@@ -189,16 +189,6 @@ footer {
 	border-style: none;
 }
 
-.horDivider {
-	width: 1px;
-	height: 100%;
-	background color: #dddddd;
-	border: solid #dddddd 4px;
-	border-radius: 4px;
-	margin-bottom: 25px;
-	box-shadow: 5px 5px 10px #555555;
-	display: inline-block;
-}
 
 .contactLinkIcon:hover {
 }
@@ -254,7 +244,7 @@ footer {
 	width: 23%;
 }
 
-#portfolio-header {
+.portfolio-header {
 	text-align: left;
 	margin-bottom: 15px;
 	margin-top: 0px;
