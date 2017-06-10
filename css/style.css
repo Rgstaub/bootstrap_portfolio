@@ -244,7 +244,12 @@ footer {
 	width: 23%;
 }
 
+#submitButton {
+
+}
+
 .portfolio-header {
+	font-size: 1.8em;
 	text-align: left;
 	margin-bottom: 15px;
 	margin-top: 0px;
@@ -254,6 +259,14 @@ footer {
 	background-color: transparent;
 	border: none;
 	box-shadow: none;
+}
+
+#tapForMore {
+	position: absolute;
+	color: #F8FFDE;
+	text-shadow: 2px 2px 2px #555555; 
+	top: 130px;
+	left: 25px;
 }
 
 .linkBorder {
